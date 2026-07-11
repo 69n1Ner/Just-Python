@@ -1,0 +1,4 @@
+Джон:John
+друг:friend
+мой:my
+привет:hello
