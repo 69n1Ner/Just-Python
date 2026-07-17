@@ -4,7 +4,7 @@ from typing import Any
 from venv import logger
 
 
-def separated_division(num,delimiter) -> list[Any] | None:
+def separated_division(num: int,delimiter: int) -> list[Any] | None:
     if num % delimiter == 0:
         ans = []
         for _ in range(delimiter):
@@ -12,7 +12,7 @@ def separated_division(num,delimiter) -> list[Any] | None:
         return ans
     return None
     #raise "деление не нацело "+ str(num) +" "+ str(delimiter)
-
+#
 def recalculate(calc_list: list[Any], calc_list_index: int,required_output: int):
     intermediate_res = 0
     print("_________ recalculate _________")
@@ -141,7 +141,7 @@ level = 2
 input =  180
 required_output = 5
 output = {}
-print("ans= " + str(calculate(required_output,input)))
+# print("ans= " + str(calculate(required_output,input)))
 
 
 
